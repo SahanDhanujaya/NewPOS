@@ -146,10 +146,14 @@ header>nav>ul>li>a{
 #item-form>section>#item-add-section{
     margin: 10%;
     margin-right: 1%;
+    padding: 1%;
 }
 #item-form>section>#item-save-section{
     margin: 10%;
     margin-left: 1%;
+    display: flex;
+    padding: 1%;
+    
 }
 #item-form>section>#item-save-section form{
     padding: 5%;
@@ -158,10 +162,35 @@ header>nav>ul>li>a{
     width: 46%;
     height: 30px;
     margin: 1%;
+    margin-left: 2%;
+    margin-top: 0;
     border-radius: 10px;
     border: 1px solid;
 }
 #item-form>section>#item-save-section form>button{
     width: 100px;
-    margin-right: 1%;
+    margin: 1%;
+    margin-left: 2%;
+}
+#item-form>section>#item-save-section>div:nth-child(1)>div{
+    width: 130%;
+    height: 200px;
+    border: 1px solid;
+    
+}
+#item-form>section>#item-save-section>div:nth-child(1) input{
+    width: 100px;
+}
+#item-form>h1{
+    padding: 2%;
+}
+#item-form>table{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;   
+    border: 10px;
+}
+#item-form #item-table{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center center;
+
 }
