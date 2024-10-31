@@ -194,3 +194,23 @@ header>nav>ul>li>a{
     place-items: center center;
 
 }
+#order-form>section>#customer-info{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 10%;
+    padding-top: 5%;
+}
+#order-form>section>#customer-info>div:nth-child(1)>select{
+    width: 100%;
+}
+#order-form>section>#customer-info>div:nth-child(2){
+    display: flex;
+    
+}
+#order-form>section>#customer-info>div:nth-child(2)>#cus-profile{
+    width: 10%;
+    height: 200px;
+    border: 1px solid;
+}
