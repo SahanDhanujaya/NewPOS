@@ -110,6 +110,33 @@
 
         </div>
     </main>
+    <main id="item-form">
+        <h1>Item</h1>
+        <section>
+            <div id="item-add-section">
+                <form>
+                    <input type="text" id="item" placeholder="item">
+                    <input type="text" id="price" placeholder="price">
+                    <input type="text" id="qty" placeholder="qty">
+                    <input type="text" id="description" placeholder="description">
+                    <button id="item-add-btn" type="button" class="btn btn-outline-success">add</button><button id="item-clear-btn" type="button" class="btn btn-outline-danger">clear</button>
+                </form>
+            </div>
+            <div id="item-save-section">
+                <div></div>
+                <div>
+                    <form>
+                        <input type="text" id="correctionItem" placeholder="item">
+                        <input type="text" id="correctionPrice" placeholder="price">
+                        <input type="text" id="correctionQTY" placeholder="qty">
+                        <input type="text" id="correctionDescription" placeholder="description">
+                        <button id="item-save-btn" type="button" class="btn btn-outline-success">save</button><button id="item-update-btn" type="button" class="btn btn-outline-secondary">update</button><button class="btn btn-outline-danger" id="item-delete-btn" type = "button">delete</button>
+                    </form>
+                </div>
+            </div>
+            
+        </section>
+    </main>
     <script src="assets/lib/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

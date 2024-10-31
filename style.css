@@ -121,3 +121,47 @@ header>nav>ul>li>a{
     place-items: center center;
 
 }
+#item-form>section{
+    display: flex;
+    /* align-items:center; */
+    justify-content:center;
+   
+}
+#item-form>section>div{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;   
+    border-radius:10px;
+    
+}
+#item-form>section>#item-add-section>form{
+    padding: 5%;
+}
+#item-form>section>#item-add-section>form>input{
+    width: 46%;
+    height: 30px;
+    margin: 1%;
+    border-radius: 10px;
+    border: 1px solid;
+    
+}
+#item-form>section>#item-add-section{
+    margin: 10%;
+    margin-right: 1%;
+}
+#item-form>section>#item-save-section{
+    margin: 10%;
+    margin-left: 1%;
+}
+#item-form>section>#item-save-section form{
+    padding: 5%;
+}
+#item-form>section>#item-save-section form>input{
+    width: 46%;
+    height: 30px;
+    margin: 1%;
+    border-radius: 10px;
+    border: 1px solid;
+}
+#item-form>section>#item-save-section form>button{
+    width: 100px;
+    margin-right: 1%;
+}
