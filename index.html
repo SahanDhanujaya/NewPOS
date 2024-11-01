@@ -159,9 +159,8 @@
         <section>
             <div id="customer-info">
                 <div>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Open this select menu</option>
-                        
+                    <select class="form-select" aria-label="Default select example" style="border: 1px solid;width: 100%;">
+                        <option selected>Choose the customer</option>
                     </select>
                 </div>
                 <div>
@@ -176,18 +175,37 @@
             </div>
             <div id="item-info">
                 <div>
-                    <select name="" id="itemSelector">Select Item</select>
+                    <select class="form-select" aria-label="Default select example" style="border: 1px solid;width: 100%;">
+                        <option selected>Choose the item</option>
+                    </select>
                 </div>
                 <div>
-                    <div id="item-profile"></div>
                     <div>
                         <input type="text" id="itemName" placeholder="item">
                         <input type="text" id="itemPrice" placeholder="price">
                         <input type="text" id="itemQty" placeholder="qty">
                         <input type="text" id="itemDesc" placeholder="description">
                     </div>
+                    <div id="item-profile"></div>
                 </div>
+                <button class="btn btn-outline-success">add to cart</button>
             </div>
+        </section>
+        <section id="order-table-section">
+            <table class="table table-hover" id="order-cart-table">
+                <thead>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>QTY</th>
+                </thead>
+            </table>
+            <br>
+            <div>
+                <span>Net Total : Rs. <h5>2500</h5></span>
+                <button class="btn btn-outline-success">Place Order</button>
+            </div>
+            
+            
         </section>
     </main>
     <script src="assets/lib/jquery-3.7.1.min.js"></script>
